@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'BasicAttributeDirective';
+  oddNumber: number[]= [1, 3, 5, 7];
+  evenNumber: number[]=[2, 4, 6, 8];
+  onOdd: boolean = false;
 }
